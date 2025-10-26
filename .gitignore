@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+# git không track các virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & artifacts
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+outputs/translations/*
+!outputs/translations/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
