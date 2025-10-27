@@ -1,0 +1,30 @@
+{
+  "project_root": "D:\\Projects\\Tiny Transforner for Machine Translation",
+  "input_files": {
+    "raw_en": "D:\\Projects\\Tiny Transforner for Machine Translation\\data\\raw\\train_en.txt",
+    "raw_vi": "D:\\Projects\\Tiny Transforner for Machine Translation\\data\\raw\\train_vi.txt"
+  },
+  "output_files": {
+    "clean_en": "D:\\Projects\\Tiny Transforner for Machine Translation\\data\\processed\\clean_train_en.txt",
+    "clean_vi": "D:\\Projects\\Tiny Transforner for Machine Translation\\data\\processed\\clean_train_vi.txt",
+    "pairs_tsv": "D:\\Projects\\Tiny Transforner for Machine Translation\\data\\processed\\clean_pairs_train.txt"
+  },
+  "filters": {
+    "min_tokens": 1,
+    "max_tokens": 100,
+    "len_ratio_min": 0.3,
+    "len_ratio_max": 3.0,
+    "lowercase_en": true,
+    "unicode_norm": "NFC",
+    "strip_controls": true,
+    "strip_zero_width": true,
+    "html_unescape": true,
+    "normalize_punct": true
+  },
+  "stats": {
+    "num_total": 41,
+    "num_kept_after_filters": 41,
+    "num_after_dedup": 41,
+    "num_removed": 0
+  }
+}
