@@ -1,0 +1,10 @@
+{
+  "lowercase": true,
+  "specials": [
+    "<pad>",
+    "<s>",
+    "</s>",
+    "<unk>"
+  ],
+  "min_freq": 1
+}
