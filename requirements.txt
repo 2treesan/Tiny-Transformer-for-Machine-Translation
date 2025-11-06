@@ -1,8 +1,19 @@
-torch
-numpy
-pandas
-tqdm
-matplotlib
-sacrebleu
-sentencepiece
-jupyter
+# CÀI TORCH TRƯỚC (chọn 1):
+# GPU CUDA 12.1:
+#   pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.2.* torchvision==0.17.* torchaudio==2.2.*
+# CHỈ CPU:
+torch==2.2.* 
+
+# Sau đó mới cài các gói bên dưới:
+torchtext==0.17.*
+torchdata==0.7.*
+
+pandas>=2.2,<2.3
+spacy==3.7.*
+altair==5.*
+jupytext==1.16.*
+flake8
+black
+GPUtil
+wandb>=0.17
+sacrebleu>=2.4
